@@ -1,0 +1,62 @@
+{
+    "networks": {
+      "mainnet": {
+        "url": "https://mainnet.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "mainnet-etherscan-API-key"
+      },
+      "polygon": {
+        "url": "https://polygon.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "polygon-etherscan-API-key"
+      },
+      "arbitrum": {
+        "url": "https://arbitrum.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "arbitrum-etherscan-API-key"
+      },
+      "optimism": {
+        "url": "https://optimism.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "optimism-etherscan-API-key"
+      },
+      "gnosis": {
+        "url": "https://gnosis.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "gnosis-etherscan-API-key"
+      },
+      "bsc": {
+        "url": "https://bsc.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "bsc-etherscan-API-key"
+      },
+      "avalanche": {
+        "url": "https://avalanche.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "avalanche-etherscan-API-key"
+      },
+      "zkevm": {
+        "url": "https://zkevm.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "zkevm-etherscan-API-key"
+      },
+      "base": {
+        "url": "https://base.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "base-etherscan-API-key"
+      },
+      "fraxtal": {
+        "url": "https://fraxtal.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "fraxtal-etherscan-API-key"
+      },
+      "mode": {
+        "url": "https://mode.rpc.endpoint/myAPIKey",
+        "verificationAPIKey": "mode-etherscan-API-key"
+      },
+      "creditcoin": {
+        "url": "https://rpc.cc3-testnet.creditcoin.network",
+        "verificationAPIKey": "mode-etherscan-API-key"
+      },
+      "baseSepolia": {
+        "url": "https://api.basescan.org/api",
+        "verificationAPIKey": "m5TCE23SINZCSNUA9RVG88VW4XY86ZJN9ZX",
+        "apiKey": "m5TCE23SINZCSNUA9RVG88VW4XY86ZJN9ZX"
+      }
+    },
+    "defaultConfig": {
+      "gasPrice": "auto",
+      "gasMultiplier": 1,
+      "accounts": ["0x-eoa-private-key"]
+    }
+  }
